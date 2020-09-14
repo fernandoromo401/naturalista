@@ -1,0 +1,195 @@
+:root{
+    --verde: #76b91b;
+    --negro: #2b2b2b;
+}
+.portada-i{
+    position: relative;
+    height: 400px;
+    background-color: honeydew;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: url('../images/negocio.png') no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+.descripcion{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 20px ;
+    color: white;
+    background-color: rgba(66, 66, 66, 0.7);
+    border-bottom-left-radius: 15px;
+}
+.portada-d-1{
+    height: 195px;
+    background-color: honeydew;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+.por-d1{
+    border-right: 5px white solid;
+    padding-left: 0px;
+    background: url('../images/investigacion.png') no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+.por-d2{
+    padding-right: 0px;
+    border-left: 5px white solid;
+    background: url('../images/venta.png') no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+.portada-d-2{
+    height: 195px;
+    background-color: honeydew;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/distribucion.png') no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    border-bottom-right-radius: 15px;
+    color: white;
+}
+.curva{
+    border-top-right-radius: 15px;
+}
+
+.botonera{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.padding{   
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.boton{
+    padding: 5px;
+    background-color: var(--verde);
+    width: 12.5%;
+    color: #fff;
+    border: 1px white solid;
+}
+
+.boton:hover{
+    background-color: rgb(18, 94, 25);
+}
+.curva-2{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.curva-3{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.col-i{
+    padding-right: 5px !important;
+}
+.col-d{
+    padding-left: 5px !important;
+}
+.margen-d{
+    padding: 0px !important;
+}
+.margen-i{
+    padding: 0px !important;
+}
+.subtitulo{
+    background-color: var(--verde);
+    border-radius: 35px;
+    border-bottom-left-radius: 0px;
+    color: white;
+    width: 300px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.subtitulo::before{
+    content: "Hola";
+    background-color: white;
+    border: var(--verde) 1px solid;
+    border-radius: 50px;
+    width: 150px;
+    z-index: -3;
+    height: 100%;
+    position: absolute;
+    right: -50px;
+}
+.subtitulo h2{
+    font-size: 24px;
+}
+.subtitulo i{
+    position: absolute;
+    right: -35px;
+    color: var(--verde);
+    z-index: 5;
+}
+.imagen{
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: -30px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-radius: 25px;
+}
+.imagen{
+    color: white;
+    font-size: 24px;
+}
+.curva-img{
+    border-top-left-radius: 0px;
+}
+.navbar{
+    padding: 0;
+}
+.nav-container{
+    width: 100% !important;
+}
+.nav{
+    width: 33% !important;
+}
+.c-1 form{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.buscador{
+    border: 1.5px var(--verde) solid;
+    border-radius: 15px;
+    width: 150%;
+}
+.boton-busc{
+    background-color: var(--verde);
+    border: none;
+    color: white;
+    position: relative;
+    left: -10%;
+    padding: 2.5px;
+    border-radius: 15px;
+    width: 80px;
+}
+.c-2{
+    display: flex;
+    justify-content: center;
+}
